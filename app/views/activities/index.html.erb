@@ -5,3 +5,7 @@
     <li><%= link_to activity.name, activity_path(activity) %></li>
   <% end %>
 </ul>
+<br>
+<%= button_to "See All Campers", campers_path, method: :get %>
+<br>
+<%= button_to "Signup for Activity", new_signup_path, method: :get %>
